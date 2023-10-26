@@ -320,7 +320,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>opcode</string>
+          <string>type</string>
         </entry>
         <entry>
           <string>Bits</string>

@@ -580,20 +580,6 @@
       <pos x="480" y="0"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>opcode</string>
-        </entry>
-      </elementAttributes>
-      <pos x="900" y="160"/>
-    </visualElement>
-    <visualElement>
       <elementName>Const</elementName>
       <elementAttributes/>
       <pos x="1840" y="40"/>
@@ -630,16 +616,16 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>2</int>
         </entry>
         <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="1900" y="220"/>
@@ -716,6 +702,53 @@
       </elementAttributes>
       <pos x="1000" y="-280"/>
     </visualElement>
+    <visualElement>
+      <elementName>calc_type.dig</elementName>
+      <elementAttributes/>
+      <pos x="900" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>opcode</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>funct3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>funct7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="380"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -741,6 +774,10 @@
     <wire>
       <p1 x="460" y="260"/>
       <p2 x="560" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="260"/>
+      <p2 x="980" y="260"/>
     </wire>
     <wire>
       <p1 x="460" y="580"/>
@@ -855,6 +892,10 @@
       <p2 x="1980" y="160"/>
     </wire>
     <wire>
+      <p1 x="860" y="160"/>
+      <p2 x="900" y="160"/>
+    </wire>
+    <wire>
       <p1 x="460" y="480"/>
       <p2 x="560" y="480"/>
     </wire>
@@ -905,6 +946,10 @@
     <wire>
       <p1 x="460" y="360"/>
       <p2 x="560" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="360"/>
+      <p2 x="980" y="360"/>
     </wire>
     <wire>
       <p1 x="460" y="680"/>
@@ -1047,6 +1092,10 @@
       <p2 x="80" y="-20"/>
     </wire>
     <wire>
+      <p1 x="980" y="260"/>
+      <p2 x="980" y="360"/>
+    </wire>
+    <wire>
       <p1 x="280" y="-100"/>
       <p2 x="280" y="-20"/>
     </wire>
@@ -1073,6 +1122,10 @@
     <wire>
       <p1 x="1980" y="-20"/>
       <p2 x="1980" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="160"/>
+      <p2 x="860" y="260"/>
     </wire>
   </wires>
   <measurementOrdering/>
