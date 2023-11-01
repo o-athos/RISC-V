@@ -110,12 +110,46 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>PCsource</string>
+          <string>J</string>
         </entry>
       </elementAttributes>
       <pos x="1100" y="680"/>
     </visualElement>
+    <visualElement>
+      <elementName>uni_interna.dig</elementName>
+      <elementAttributes/>
+      <pos x="620" y="280"/>
+    </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="460" y="320"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="280"/>
+      <p2 x="620" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="380"/>
+      <p2 x="400" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="300"/>
+      <p2 x="620" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="460"/>
+      <p2 x="460" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="300"/>
+      <p2 x="400" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="320"/>
+      <p2 x="460" y="460"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>

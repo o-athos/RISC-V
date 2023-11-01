@@ -638,7 +638,7 @@
           <string>ula_out</string>
         </entry>
       </elementAttributes>
-      <pos x="1900" y="160"/>
+      <pos x="1900" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -672,7 +672,7 @@
           <string>pc+4</string>
         </entry>
       </elementAttributes>
-      <pos x="1900" y="200"/>
+      <pos x="1900" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -798,6 +798,10 @@
     <wire>
       <p1 x="460" y="200"/>
       <p2 x="560" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1900" y="200"/>
+      <p2 x="1980" y="200"/>
     </wire>
     <wire>
       <p1 x="460" y="520"/>
@@ -996,10 +1000,6 @@
       <p2 x="1860" y="180"/>
     </wire>
     <wire>
-      <p1 x="1900" y="180"/>
-      <p2 x="1980" y="180"/>
-    </wire>
-    <wire>
       <p1 x="400" y="180"/>
       <p2 x="440" y="180"/>
     </wire>
@@ -1125,7 +1125,7 @@
     </wire>
     <wire>
       <p1 x="1980" y="-20"/>
-      <p2 x="1980" y="180"/>
+      <p2 x="1980" y="200"/>
     </wire>
   </wires>
   <measurementOrdering/>
