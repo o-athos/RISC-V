@@ -28,6 +28,10 @@
           <string>Bits</string>
           <int>32</int>
         </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
       </elementAttributes>
       <pos x="1420" y="360"/>
     </visualElement>
@@ -234,7 +238,7 @@
       <elementAttributes>
         <entry>
           <string>inputBits</string>
-          <int>12</int>
+          <int>13</int>
         </entry>
         <entry>
           <string>outputBits</string>
@@ -286,7 +290,7 @@
       <elementAttributes>
         <entry>
           <string>inputBits</string>
-          <int>12</int>
+          <int>21</int>
         </entry>
         <entry>
           <string>outputBits</string>
@@ -324,7 +328,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>6</int>
+          <int>2</int>
         </entry>
       </elementAttributes>
       <pos x="400" y="720"/>
