@@ -50,8 +50,12 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Frequency</string>
-          <int>2147483647</int>
+          <int>200</int>
         </entry>
       </elementAttributes>
       <pos x="1160" y="300"/>
@@ -73,8 +77,11 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>2023,0,0,0,100093,0,0,0,a00113,0,0,0,20de63,0,0,0,209193,0,0,0
-,ffc1a203,0,0,0,220293,0,0,0,51a023,0,0,0,108093,0,0,0,fe9ff06f</data>
+          <data>513,0,0,0,1400593,0,0,0,100613,0,0,0,100693,0,0,0,8000ef,7*0,c52023
+,0,0,0,d52223,0,0,0,200293,0,0,0,2b2da63,0,0,0,fff28313,0,0,0
+,231313,0,0,0,a30333,0,0,0,32383,0,0,0,ffe28e13,0,0,0,2e1e13,0,0,0
+,ae0e33,0,0,0,e2e83,0,0,0,1d38f33,0,0,0,1e32223,0,0,0,128293,0,0,0
+,fd1ff06f,0,0,0,8067</data>
         </entry>
         <entry>
           <string>intFormat</string>
